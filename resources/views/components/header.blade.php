@@ -8,7 +8,7 @@
 
     <h2 class="text-center text-5xl font-light">
       <b class="font-bold">Buenas</b> historias y fotos <b class="font-bold">horribles</b> de momentos <b
-        class="font-bold">inolvidables</b>
+        class="font-bold">inolvidables.</b>
     </h2>
   </div>
 </div>
