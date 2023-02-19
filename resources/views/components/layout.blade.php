@@ -29,7 +29,7 @@
 
     <div class="flex justify-center">
 
-        <div class="md:w-2/3 ">
+        <div class="md:w-2/3 px-2">
             {{ $slot }}
         </div>
     </div>
