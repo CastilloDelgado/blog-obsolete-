@@ -10,7 +10,8 @@
         otras
         personas puedan leerlar.</p>
 
-      <div class="flex justify-center mt-4">
+      <div class="flex justify-center mt-10
+      ">
         <button class="bg-white hover:bg-gray-300 drop-shadow text-black px-3 py-2 ">Registrate aquí</button>
       </div>
     </div>

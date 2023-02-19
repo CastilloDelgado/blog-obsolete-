@@ -11,59 +11,40 @@
     </h2>
 
     <div class="mt-10">
-      <p class="font-sans">Lee una reseña random de nuestro repertorio</p>
+      <p class="font-sans text-lg">Lee una reseña random de nuestro repertorio</p>
     </div>
 
-    <div class="lg:columns-3 gap-2">
-      @foreach ([
+    <x-posts.post-small-list :posts='[
       [
-      "dir" => "storage/images/header-1.jpeg",
-      "bg" => "bg-red-100"
+        "dir" => "storage/images/header-1.jpeg",
+        "bg" => "bg-red-100",
+        "artist" => "Amyl and the sniffers",
+        "genres" => ["Rock", "Punk", "Neopunk"],
+        "concert_date" => "Enero 12 del 2023",
+        "location" => "C3 Stage, Guadalajara, Mx.",
+        "author" => "Marco Castillo",
+        "grade" => "5"
       ],
       [
-      "dir" => "storage/images/header-2.jpeg",
-      "bg" => "bg-red-200"
+        "dir" => "storage/images/header-2.jpeg",
+        "bg" => "bg-red-200",
+        "artist" => "Amyl and the sniffers",
+        "genres" => ["Rock", "Punk", "Neopunk"],
+        "concert_date" => "Enero 12 del 2023",
+        "location" => "C3 Stage, Guadalajara, Mx.",
+        "author" => "Marco Castillo",
+        "grade" => "5"
       ],
       [
-      "dir" => "storage/images/header-3.jpeg",
-      "bg" => "bg-red-300"
+        "dir" => "storage/images/header-3.jpeg",
+        "bg" => "bg-red-300",
+        "artist" => "Amyl and the sniffers",
+        "genres" => ["Rock", "Punk", "Neopunk"],
+        "concert_date" => "Enero 12 del 2023",
+        "location" => "C3 Stage, Guadalajara, Mx.",
+        "author" => "Marco Castillo",
+        "grade" => "5"
       ],
-
-      ] as $image)
-      <div class="mb-4">
-        <img src={{asset($image["dir"])}} alt="" class="grayscale hover:filter-none">
-        <div class={{ $image["bg"]}}>
-          <div class="p-2">
-            <div>
-              <p class="font-sans font-xs">Artista:</p>
-              <p class="font-bold text-2xl">Amyl and the sniffers</p>
-            </div>
-            <div class="flex flex-row">
-              <p class="font-sans font-xs">Genero:</p>
-              <p class="font-xs ml-2">Punk, Neopunk</p>
-            </div>
-            <div class="flex flex-row">
-              <p class="font-sans font-xs">Fecha:</p>
-              <p class="font-xs ml-2">Enero 12 del 2023</p>
-            </div>
-            <div class="flex flex-row">
-              <p class="font-sans font-xs">Lugar:</p>
-              <p class="font-xs ml-2">C3 Stage, Guadalajara, Mx.</p>
-            </div>
-            <div class="flex flex-row">
-              <p class="font-sans font-xs">Autor:</p>
-              <p class="font-xs ml-2">Marco Castillo</p>
-            </div>
-            <div class="flex flex-row">
-              <p class="font-sans font-xs">Calificación:</p>
-              <p class="font-xs ml-2">5/5</p>
-            </div>
-          </div>
-          <p class="font-sans text-right mt-6 bg-black text-white p-2" style="font-size: 12px">Publicado hace 10 días
-          </p>
-        </div>
-      </div>
-      @endforeach
-    </div>
+    ]' />
   </div>
 </div>
