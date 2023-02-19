@@ -6,7 +6,7 @@
     <x-posts.highlights-posts-list />
 
     {{-- Sign up advertisement --}}
-    <x-sign-up-advertisement />
+    <x-advertisements.sign-up />
 
     {{-- Random posts --}}
     <x-posts.recent-posts-list />

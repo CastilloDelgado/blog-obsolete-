@@ -14,7 +14,7 @@
     <a href="/register" class="text-sm font-sans hover:underline">Registrate</a>
     <a href="/login" class="text-sm ml-4 font-sans hover:underline">Iniciar Sesión</a>
 
-    <a href="#newsletter" class="font-sans bg-black ml-3 text-sm font-semibold text-white py-2 px-3">
+    <a href="#newsletter" class=" hover:scale-105 font-sans bg-black ml-3 text-sm font-semibold text-white py-2 px-3">
       Newsletter
     </a>
   </div>

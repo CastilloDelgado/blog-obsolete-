@@ -12,7 +12,8 @@
 
       <div class="flex justify-center mt-10
       ">
-        <button class="bg-white hover:bg-gray-300 drop-shadow text-black px-3 py-2 ">Registrate aquí</button>
+        <button class="bg-white text-black hover:scale-105 px-3 py-2 ">Registrate
+          aquí</button>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 @props(['post'])
-<div class="mb-4">
+<div class="mb-4 hover:scale-[1.01]">
   <img src={{asset($post["dir"])}} alt="" class="grayscale hover:filter-none">
   <div class={{ $post["bg"]}}>
     <div class="p-2">
