@@ -1,12 +1,12 @@
 <div>
   <div class="mt-8">
-    <p class="font-sans text-lg">Lee uno de nuestros highlights</p>
+    <p class="font-sans text-lg">Lee un post random de nuestro blog</p>
   </div>
 
   <x-posts.post-small-list :posts='[
       [
         "dir" => "storage/images/header-1.jpeg",
-        "bg" => "bg-rose-100",
+        "bg" => "bg-fuchsia-100",
         "artist" => "Amyl and the sniffers",
         "genres" => ["Rock", "Punk", "Neopunk"],
         "concert_date" => "Enero 12 del 2023",
@@ -16,7 +16,7 @@
       ],
       [
         "dir" => "storage/images/header-2.jpeg",
-        "bg" => "bg-rose-200",
+        "bg" => "bg-fuchsia-200",
         "artist" => "Amyl and the sniffers",
         "genres" => ["Rock", "Punk", "Neopunk"],
         "concert_date" => "Enero 12 del 2023",
@@ -26,7 +26,7 @@
       ],
       [
         "dir" => "storage/images/header-3.jpeg",
-        "bg" => "bg-rose-300",
+        "bg" => "bg-fuchsia-300",
         "artist" => "Amyl and the sniffers",
         "genres" => ["Rock", "Punk", "Neopunk"],
         "concert_date" => "Enero 12 del 2023",

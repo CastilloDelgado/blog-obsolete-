@@ -5,7 +5,7 @@
       <p class="text-2xl font-sans font-light mt-4 text-right">Suscribete a nuestro newsletter para recibir
         notificaciones por e-mail cuando un post sugerido para ti se publique.</p>
       <div class="flex justify-center mt-10">
-        <button class="bg-white text-black hover:scale-105 px-3 py-2 ">Suscribete al Newsletter</button>
+        <button class="bg-white text-black hover:scale-105 px-3 py-2">Suscribete al Newsletter</button>
       </div>
     </div>
   </div>
