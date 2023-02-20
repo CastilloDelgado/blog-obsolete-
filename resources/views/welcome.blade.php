@@ -11,9 +11,10 @@
     {{-- Random posts --}}
     <x-posts.recent-posts-list />
 
-    {{-- Posts by date --}}
-
     {{-- Newsletter advertisement --}}
+    <x-advertisements.newsletter />
+
+    {{-- Posts by date --}}
 
     {{-- Footer --}}
 </x-layout>

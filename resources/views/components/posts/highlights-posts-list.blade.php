@@ -1,5 +1,5 @@
 <div>
-  <div class="mt-10">
+  <div class="mt-8">
     <p class="font-sans text-lg">Lee uno de nuestros highlights</p>
   </div>
 
