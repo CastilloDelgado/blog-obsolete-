@@ -2,7 +2,7 @@
   <div>
     <a href="/">
       <div class="flex flex-row ">
-        <p class="text-2xl font-bold">Life & life music</p>
+        <p class="text-2xl font-bold">Life & live music</p>
         <small class="font-light font-sans ml-1">(blog)</small>
       </div>
       {{-- <img src="/images/logo.svg" alt="Laracasts Logo" width="165" height="16"> --}}
