@@ -17,6 +17,4 @@
     {{-- Posts by date --}}
     <x-posts.random-posts-list />
 
-
-    {{-- Footer --}}
 </x-layout>
